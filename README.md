@@ -6,17 +6,24 @@ STM550J-Operation-Manual
 
 ## LEARN ボタン操作
 
+LEARNボタンは爪楊枝またはクリックプなどの先が細く尖ったもので確実に押します。
+この操作でスリーブ（エアプレインモード）のON/OFF等の簡単な設定が出来ます。
+
+
 | 押し方 | 時間間隔 | 設定内容 | LED表示 |
 |:-:|:-:|:-:|:-:|
-| Single Short | 1秒以下 | スリーブ終了, Teach-In 送信 | 成功：1点滅 |
+| Single Short | 1秒以下 | スリープ終了, Teach-In 送信 | 成功：1点滅 |
 | Double Short | 1秒以下押,1秒以下離,1秒以下押 | 機能テスト, 2分間または他ボタンで終了 | 高速点滅 |
 | Triple Short | 1秒以下押,1秒以下離 x 3回 | LED表示変更(トグル) | 成功：2点滅 |
-| Single Long | 3～5秒 | スリーブ開始 | 成功：3点滅 |
+| Single Long | 3～5秒 | スリープ開始 | 成功：3点滅 |
 | Double Long | 3～5秒押,1秒以下離,3～5秒押 | ハイセキュリティモード | 成功：2点滅 |
 | Very Long | 8秒以上 | 工場出荷状態リセット | 成功：5点滅 |
 
 
 ## EEP一覧（NFCで設定）
+
+EEPは国際規格NFCを搭載する iPhoneやスマートフォンのNFC機能で設定します。
+App StoreやGoogle Play から **EnOcean Tool** アプリをダウンロードしてご利用ください。
 
 | EEP | Telegram Type | Data |
 |:-:|:-:|:-:|
